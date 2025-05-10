@@ -1,6 +1,8 @@
 .footer{
     color: #d9d9d9;
-    background-color: #323232;
+    /* background-color: #323232; */
+    background: #250846;
+    background: linear-gradient(0deg, rgba(37,8,70,1) 43%, rgba(73,16,139,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,18 +50,18 @@
 .twitter-icon{
     background-color: #39B5E0;
     border-radius: 50%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .linked-icon{
     background-color: #0079FF;
     border-radius: 50%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 }
 hr{

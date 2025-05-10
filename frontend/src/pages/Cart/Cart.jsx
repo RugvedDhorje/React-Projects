@@ -1,8 +1,6 @@
-import React from 'react'
 import './Cart.css'
 import { useContext } from 'react'
 import { StoreContext } from '../../Context/StoreContext'
-import { assets } from '../../assets/assets'
 import { useNavigate } from 'react-router-dom'
 
 const Cart = () => {
@@ -27,7 +25,7 @@ const Cart = () => {
       {food_list.map((item,index)=>{
         if(cartItems[item._id]>0){
           return(
-            <div>
+            <div key={index}>
             <div className='cart-items-title cart-items-item' >
               <img src={item.image}/>
               <p>{item.name}</p>

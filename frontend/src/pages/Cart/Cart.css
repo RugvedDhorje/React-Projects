@@ -38,6 +38,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: #250846;
 }
 .cart-total-details{
     display: flex;
@@ -50,7 +51,7 @@
 .cart-total button{
     border: none;
     color: white;
-    background-color: tomato;
+    background-color: #250846;
     width: max(15vw,200px);
     padding: 20px 0px;
     cursor: pointer;
@@ -87,7 +88,7 @@
 .cart-promocode-input button{
     width: max(15px,150px);
     padding: 12px 5px;
-    background-color: black;
+    background-color: #250846;
     border: none;
     color: white;
     border-radius: 4px;

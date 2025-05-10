@@ -4,6 +4,9 @@
     text-align: center;
     font-size: max(3vw,20px);
     font-weight: 500;
+    p{
+        color: #250846;
+    }
 }
 .app-download-platform{
     display: flex;
